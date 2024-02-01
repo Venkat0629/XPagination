@@ -15,6 +15,7 @@ function App() {
       setTotalPages(Math.ceil(jsonData.length / 10));
     } catch (error) {
       console.log(error);
+      alert("Failed to fetch data");
     }
   };
 
